@@ -10847,6 +10847,11 @@ h6,
 .img-fixed {
   width: 100%;
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  pointer-events: none;
 }
 
 .a-white:hover {
@@ -10877,7 +10882,12 @@ h6,
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #222222;
-  border-color: #222222;
+  background-color: #FF4A17;
+  border-color: #FF4A17;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
